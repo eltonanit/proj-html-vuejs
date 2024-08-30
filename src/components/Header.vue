@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar navbar-expand-lg navbar-dark py-3">
+  <header class="navbar navbar-expand-lg navbar-dark py-2">
     <div class="container">         
       <a class="navbar-brand" href="#"> 
             <img src="../assets/img/light-logo.png" alt="dark"class="logo">
@@ -7,7 +7,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      
       <div class="collapse navbar-collapse" id="navbarNav">
+
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item" v-for="item in menuItems" :key="item.name">
             <a class="nav-link" href="#">
@@ -47,11 +50,10 @@ export default {
 
 
 <style scoped>
+ 
+ 
 .navbar {
-  background-color: #2d1967 !important;
-}
-.navbar {
-  background-color: #2d1967 !important;
+  background-color: #1f1f52 !important;
 }
 .logo {
   max-width: 150px;
